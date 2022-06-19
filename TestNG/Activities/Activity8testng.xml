@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="classes">
+    <test name="Tests">
+        <classes>
+            <class name="testngActivities.Activity1"/>
+            <class name="testngActivities.Activity2"/>
+            <class name="testngActivities.Activity3"/>
+            <class name="testngActivities.Activity5"/>
+            <class name="testngActivities.Activity6"/>
+        </classes>
+    </test>
+</suite>
